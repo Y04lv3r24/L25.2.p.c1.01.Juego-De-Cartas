@@ -29,4 +29,7 @@ export default class Cl_Participante {
     get carta3() {
         return this._carta3;
     }
+    puntajeTotal() {
+        return this._carta1 + this._carta2 + this._carta3;
+    }
 }

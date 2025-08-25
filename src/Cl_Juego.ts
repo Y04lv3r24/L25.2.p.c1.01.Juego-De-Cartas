@@ -12,7 +12,7 @@ export default class Cl_Juego {
         //Contador de jugadores:
         this._cntJugadores++;
         //Puntaje Total:
-        this._puntajeTotal = p.carta1 + p.carta2 + p.carta3;
+        this._puntajeTotal = p.puntajeTotal();
         //Contador de jugadores con menos de 10 puntos:
         if (this._puntajeTotal < 10) {
             this._cntJugadoresConMenos10Puntos++;
